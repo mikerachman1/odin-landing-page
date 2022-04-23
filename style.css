@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.container,
+.header,
 .intro-block,
 .footer {
     background-color: #1F2937;
@@ -67,7 +67,7 @@ img {
 
 .header {
     display: flex;
-    margin: 10px 150px;
+    padding: 10px 120px;
     align-items: center;
 }
 
@@ -83,5 +83,17 @@ img {
 
 #big-pic {
     width: 450px;
-    height: 200px;
+    height: 250px;
+}
+
+.intro-block {
+    display: flex;
+    padding: 100px 120px;
+    gap: 40px;
+    align-items: center;
+}
+
+.intro-left {
+    display: flex;
+    flex-direction: column;
 }
