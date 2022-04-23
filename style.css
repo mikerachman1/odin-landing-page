@@ -2,9 +2,9 @@
     font-family: Roboto, Arial, sans-serif;
 }
 
-.header,
+.container,
 .intro-block,
-footer {
+.footer {
     background-color: #1F2937;
 }
 
@@ -20,7 +20,8 @@ footer {
 }
 
 .link,
-.hero-subtext {
+.hero-subtext,
+.foot {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -47,4 +48,14 @@ footer {
 
 button {
     background-color: #3882F6
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
