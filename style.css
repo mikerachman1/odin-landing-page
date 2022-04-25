@@ -22,6 +22,7 @@ body {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .link,
@@ -52,7 +53,14 @@ body {
 }
 
 button {
-    background-color: #3882F6
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 135px;
+    border: none;
+    border-radius: 8px;
 }
 
 .container {
@@ -60,9 +68,11 @@ button {
     flex-direction: column;
 }
 
-img {
-    width: 300px;
-    height: 300px;
+.info-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
 }
 
 .header {
@@ -82,18 +92,49 @@ img {
 }
 
 #big-pic {
-    width: 450px;
+    width: 550px;
     height: 250px;
 }
 
 .intro-block {
     display: flex;
     padding: 100px 120px;
-    gap: 40px;
+    gap: 100px;
     align-items: center;
 }
 
 .intro-left {
     display: flex;
     flex-direction: column;
+}
+
+.hero-subtext {
+    margin: 15px 0;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 185px;
+}
+
+.info-text {
+    color: rgb(139, 139, 139);
+    text-align: center;
+    margin: 8px;
+    padding: 0;
 }
